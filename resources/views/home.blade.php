@@ -3,8 +3,8 @@
 @section('content')
 
 <!-- HERO -->
-<section class="min-h-screen flex items-center bg-gradient-to-r from-blue-50 to-white px-6 py-16">
-    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left">
+<section class="py-20 px-6 bg-gradient-to-r from-blue-50 to-white">
+                <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center md:text-left">
         <!-- TEXT -->
         <div>
             <h1 data-aos="fade-right" class="text-4xl md:text-5xl font-bold mb-4">
@@ -23,16 +23,16 @@
         </div>
 
         <!-- IMAGE -->
-        <div data-aos="zoom-in" class="flex justify-center">
-            <img src="{{ asset('image/2x2.jpg') }}"
-                class="w-48 h-48 md:w-72 md:h-72 object-cover rounded-full shadow-xl border-4 border-white mx-auto md:mx-0">
+        <div data-aos="zoom-in" class="flex justify-center"> 
+            <img src="{{ asset('image/2x2.jpg') }}" 
+            class="w-72 h-72 object-cover rounded-full shadow-xl border-4 border-white"> 
         </div>
 
     </div>
 </section>
 
 <!-- ABOUT -->
-<section class="py-20 px-6 max-w-5xl mx-auto text-center">
+<section class="py-20 px-6 max-w-5xl mx-auto text-center " id="about">
     <h2 class="text-3xl font-bold mb-6">About Me</h2>
 
     <p class="text-gray-600 text-lg leading-relaxed">
@@ -41,7 +41,7 @@
 </section>
 
 <!-- SKILLS -->
-<section class="py-20 bg-gray-50 px-6">
+<section class="py-20 bg-gray-50 px-6" id="skills">
     <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto text-center">
@@ -116,7 +116,7 @@
 </section>
 
 <!-- EXPERIENCE -->
-        <section class="py-20 px-6 max-w-4xl mx-auto text-center md:text-left">
+    <section class="py-20 px-6 max-w-4xl mx-auto text-center md:text-left">
         <h2 class="text-3xl font-bold mb-6 text-center">Experience</h2>
 
     <div class="bg-white p-6 rounded-xl shadow">
@@ -130,7 +130,7 @@
 </section>
 
 <!-- CONTACT -->
-<section class="py-20 px-6 max-w-4xl mx-auto">
+<section class="py-20 px-6 max-w-4xl mx-auto" id="contact">
     <h2 class="text-3xl font-bold mb-8 text-center">Contact</h2>
 
     <div class="text-center mb-6 text-gray-600">
